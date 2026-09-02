@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Version of vscode-eslint to use
-VSCODE_ESLINT_VERSION="3.0.16"
+VSCODE_ESLINT_VERSION="3.0.34"
 
 # Check if --debug option is provided
 DEBUG_MODE=false
