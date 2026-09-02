@@ -60,6 +60,9 @@ In many cases, your repository might function with the default configurations. H
     -- Toggle debug mode for ESLint language server, see debugging part
     debug = false,
 
+    -- Run lsp server only when eslint config file is found in the working directory
+    require_config_file = false,
+
     -- Command to launch language server. You might hardly want to change this setting
     cmd = M.create_cmd(),
 
